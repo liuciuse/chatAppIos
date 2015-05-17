@@ -16,6 +16,10 @@
 		A88C4D861B05E32C003F4049 /* chatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A88C4D851B05E32C003F4049 /* chatAppTests.m */; };
 		A8DD007D1B06E32600D5CFAA /* TestLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8DD007C1B06E32600D5CFAA /* TestLabel.xib */; };
 		A8DD00811B07389600D5CFAA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DD00801B07389600D5CFAA /* BaseViewController.m */; };
+		A8E735601B0856A2005A19AE /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E7355F1B0856A2005A19AE /* TestAppDelegate.m */; };
+		A8E735641B08587E005A19AE /* Image+online.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E735631B08587E005A19AE /* Image+online.m */; };
+		A8E735691B085C08005A19AE /* ImageTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E735671B085C08005A19AE /* ImageTestViewController.m */; };
+		A8E7356A1B085C08005A19AE /* ImageTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E735681B085C08005A19AE /* ImageTestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,13 @@
 		A8DD007C1B06E32600D5CFAA /* TestLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestLabel.xib; sourceTree = "<group>"; };
 		A8DD007F1B07389600D5CFAA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		A8DD00801B07389600D5CFAA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A8E7355E1B0856A2005A19AE /* TestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		A8E7355F1B0856A2005A19AE /* TestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
+		A8E735621B08587E005A19AE /* Image+online.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Image+online.h"; sourceTree = "<group>"; };
+		A8E735631B08587E005A19AE /* Image+online.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Image+online.m"; sourceTree = "<group>"; };
+		A8E735661B085C08005A19AE /* ImageTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTestViewController.h; sourceTree = "<group>"; };
+		A8E735671B085C08005A19AE /* ImageTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTestViewController.m; sourceTree = "<group>"; };
+		A8E735681B085C08005A19AE /* ImageTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +86,9 @@
 		A857FA381B061257000AF1ED /* test */ = {
 			isa = PBXGroup;
 			children = (
+				A8E735651B085BE3005A19AE /* UIImageTest */,
+				A8E735611B085809005A19AE /* imageOnline */,
+				A8E7355D1B08564A005A19AE /* Supporting FIles */,
 				A8DD007B1B06E30D00D5CFAA /* test ui */,
 			);
 			name = test;
@@ -159,6 +173,34 @@
 			name = baseCore;
 			sourceTree = "<group>";
 		};
+		A8E7355D1B08564A005A19AE /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				A8E7355E1B0856A2005A19AE /* TestAppDelegate.h */,
+				A8E7355F1B0856A2005A19AE /* TestAppDelegate.m */,
+			);
+			name = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		A8E735611B085809005A19AE /* imageOnline */ = {
+			isa = PBXGroup;
+			children = (
+				A8E735621B08587E005A19AE /* Image+online.h */,
+				A8E735631B08587E005A19AE /* Image+online.m */,
+			);
+			name = imageOnline;
+			sourceTree = "<group>";
+		};
+		A8E735651B085BE3005A19AE /* UIImageTest */ = {
+			isa = PBXGroup;
+			children = (
+				A8E735661B085C08005A19AE /* ImageTestViewController.h */,
+				A8E735671B085C08005A19AE /* ImageTestViewController.m */,
+				A8E735681B085C08005A19AE /* ImageTestViewController.xib */,
+			);
+			name = UIImageTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,6 +283,7 @@
 			files = (
 				A88C4D751B05E32C003F4049 /* Main.storyboard in Resources */,
 				A88C4D7A1B05E32C003F4049 /* LaunchScreen.xib in Resources */,
+				A8E7356A1B085C08005A19AE /* ImageTestViewController.xib in Resources */,
 				A8DD007D1B06E32600D5CFAA /* TestLabel.xib in Resources */,
 				A88C4D771B05E32C003F4049 /* Images.xcassets in Resources */,
 			);
@@ -260,9 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E735641B08587E005A19AE /* Image+online.m in Sources */,
 				A88C4D721B05E32C003F4049 /* ViewController.m in Sources */,
 				A8DD00811B07389600D5CFAA /* BaseViewController.m in Sources */,
+				A8E735691B085C08005A19AE /* ImageTestViewController.m in Sources */,
 				A88C4D6F1B05E32B003F4049 /* AppDelegate.m in Sources */,
+				A8E735601B0856A2005A19AE /* TestAppDelegate.m in Sources */,
 				A88C4D6C1B05E32B003F4049 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
